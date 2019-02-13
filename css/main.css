@@ -35,11 +35,10 @@ a {color: white;
   text-decoration: none;}
 
 a:hover {
-  color: white;
+  color: red;
   text-decoration: underline;}
 
-a:active {
-  background: yellow;}
+a:active {background: yellow;}
 
 a:visited {color: white;}
 
