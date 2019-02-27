@@ -53,7 +53,7 @@ body {
     }
     #print {
         display: inline;
-        color: green;
+        font-size: 80pt;
     }
     #desktop,
     #tablet,
