@@ -5,6 +5,9 @@
 
 /* begin styles */
 
+
+
+
 body {color: white;
 	background-color: coral;}
 
@@ -42,3 +45,14 @@ a:active {background: yellow;}
 
 a:visited {color: white;}
 
+body.colorful {
+  background: linear-gradient(124deg, green, coral, red, coral, coral, blue, coral, coral, yellow);
+  /* background-size: 1800% 1800%; */
+  /* animation: green 18s coral 18s blue 18s coral 18s yellow 18s ease infinite; */
+}
+
+@keyframes rainbow { 
+  0%{background-position:0% 82%}
+  50%{background-position:100% 19%}
+  100%{background-position:0% 82%}
+}
