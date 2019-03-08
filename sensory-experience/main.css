@@ -1,8 +1,42 @@
 * {margin: 0px; padding: 0px;}
 
 body {
+  background:pink;
   display: block;
   margin: auto;
   width: 50%;
   opacity:100%;
 }
+
+img {
+  float: center;
+}
+
+#toplip {
+  position: absolute;
+  top: 10px;
+  width: 140px;
+  left: 100px;
+}
+
+#bottomlip {
+  width: 140px;
+  position: absolute;
+  top: 120px;
+  left: 100px;
+}
+
+#tongue {
+  width: 140px;
+ 
+  position: absolute;
+  top: 140px;
+  left: 250px;
+  opacity: 0;
+}
+
+#tongue:hover {opacity: 100;}
+
+
+
+
