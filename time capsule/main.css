@@ -15,8 +15,22 @@ body.blue-bg {
 .grid-container {
 	display: grid;
 	grid-template-columns: auto auto auto auto auto auto auto auto auto;
-	grid-template-rows: 200px 200px 200px 200px;
-	grid-gap: 20px 20px;}
+	grid-template-rows: ;
+	grid-gap: 20px 20px;
+    }
+
+/*
+@media only screen and (max-width: 300px;) {
+	.grid-container{
+		display: grid;
+		grid-template-columns: auto auto auto ;
+		grid-template-rows: 200px 200px 200px 200px;
+		grid-gap: 20px 20px;
+	} 
+
+*/	
+
+#item-16 {font-family: 'Dokdo', cursive;}
 
 #item-1 {
 	grid-column-start: 1;
@@ -52,14 +66,66 @@ body.blue-bg {
 	display: none;
 }
 
-/*
+
 #img2:hover {
-	background-image: url('img/.png')
+	background-image: url('img/girltop.png')
 }
 #img2:hover img{
 	display: none;
-} */
+} 
 
-@media only screen and (max-width: 600px;) {
-	body {background-color:red;}}
+
+#img3:hover {
+	background-image: url('img/girlshorts.png')
+}
+#img3:hover img{
+	display: none;
+} 
+
+
+#img4:hover {
+	background-image: url('img/girlhat.png')
+}
+#img4:hover img{
+	display: none;
+} 
+
+
+#img5:hover {
+	background-image: url('img/girlshoes.png')
+}
+#img5:hover img{
+	display: none;
+} 
+
+
+#img6:hover {
+	background-image: url('img/girljacket2.png')
+}
+#img6:hover img{
+	display: none;
+} 
+
+
+#img7:hover {
+	background-image: url('img/girlshorts2.png')
+}
+#img7:hover img{
+	display: none;
+} 
+
+#img8:hover {
+	background-image: url('img/f-grn.png')
+}
+#img8:hover img{
+	display: none;
+}
+
+#img9:hover {
+	background-image: url('img/girlfull.png')
+}
+#img9:hover img{
+	display: none;
+}
+
 
