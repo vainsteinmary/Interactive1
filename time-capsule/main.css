@@ -1,0 +1,141 @@
+body
+	{background: lightgreen}
+/*
+.grid-item {
+	background: white;} */
+
+body.pink-bg {
+	background-color: pink;
+}
+
+body.blue-bg {
+	background-color: lightblue;
+}
+
+#desktop, .grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto auto auto auto;
+	grid-template-rows: ;
+	grid-gap: 1px 10px;
+    }
+
+#mobile{
+    display: none;}
+
+#item-16 {font-family: 'Dokdo', cursive;}
+
+#item-1 {
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 5;
+	position: center
+	}
+
+#item-3 {
+	grid-column-start: 4;
+	grid-column-end: 7;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	position: center} 
+
+#item-5 {
+	grid-column-start: 8;
+	grid-column-end: 10;
+	grid-row-start: 1;
+	grid-row-end: 5;}
+
+#item-16 {
+	grid-column-start: 3;
+	grid-column-end: 8;
+	grid-row-start: 4;
+	grid-row-end: 5;} 
+
+#img1:hover {
+	background-image: url('img/girljacket.png')
+
+}
+#img1:hover img{
+	display: none;
+}
+
+
+#img2:hover {
+	background-image: url('img/girltop.png')
+}
+#img2:hover img{
+	display: none;
+} 
+
+
+#img3:hover {
+	background-image: url('img/girlshorts.png')
+}
+#img3:hover img{
+	display: none;
+} 
+
+
+#img4:hover {
+	background-image: url('img/girlhat.png')
+}
+#img4:hover img{
+	display: none;
+} 
+
+
+#img5:hover {
+	background-image: url('img/girlshoes.png')
+}
+#img5:hover img{
+	display: none;
+} 
+
+
+#img6:hover {
+	background-image: url('img/girljacket2.png')
+}
+#img6:hover img{
+	display: none;
+} 
+
+
+#img7:hover {
+	background-image: url('img/girlshorts2.png')
+}
+#img7:hover img{
+	display: none;
+} 
+
+#img8:hover {
+	background-image: url('img/f-grn.png')
+}
+#img8:hover img{
+	display: none;
+}
+
+#img9:hover {
+	background-image: url('img/girlfull.png')
+
+}
+#img9:hover img{
+	display: none;
+}
+
+
+/* mobile */
+@media (max-width: 670px) {
+    body {
+        background: white;
+    }
+    #mobile {
+	display: grid;
+	grid-template-columns: auto auto auto ;
+	grid-template-rows: ;
+	grid-gap: 20px 20px;
+    }
+    #desktop {
+        display: none;
+    }
+}
+
