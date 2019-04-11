@@ -135,5 +135,9 @@ body.blue-bg {
     #desktop {
         display: none;
     }
+    #item1{display: none;}
+    #item3{display: none;}
+    #item5{display: none;}
+    #item16{display: none;}
 }
 
