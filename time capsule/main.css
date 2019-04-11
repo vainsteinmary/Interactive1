@@ -12,23 +12,15 @@ body.blue-bg {
 	background-color: lightblue;
 }
 
-.grid-container {
+#desktop, .grid-container {
 	display: grid;
 	grid-template-columns: auto auto auto auto auto auto auto auto auto;
 	grid-template-rows: ;
 	grid-gap: 20px 20px;
     }
-
-/*
-@media only screen and (max-width: 300px;) {
-	.grid-container{
-		display: grid;
-		grid-template-columns: auto auto auto ;
-		grid-template-rows: 200px 200px 200px 200px;
-		grid-gap: 20px 20px;
-	} 
-
-*/	
+	
+#mobile{
+    display: none;}
 
 #item-16 {font-family: 'Dokdo', cursive;}
 
@@ -128,4 +120,20 @@ body.blue-bg {
 	display: none;
 }
 
+
+/* mobile */
+@media (max-width: 670px) {
+    body {
+        background: white;
+    }
+    #mobile {
+	display: grid;
+	grid-template-columns: auto auto auto ;
+	grid-template-rows: ;
+	grid-gap: 20px 20px;
+    }
+    #desktop {
+        display: none;
+    }
+}
 
