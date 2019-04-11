@@ -16,9 +16,9 @@ body.blue-bg {
 	display: grid;
 	grid-template-columns: auto auto auto auto auto auto auto auto auto;
 	grid-template-rows: ;
-	grid-gap: 20px 20px;
+	grid-gap: 1px 10px;
     }
-	
+
 #mobile{
     display: none;}
 
@@ -53,6 +53,7 @@ body.blue-bg {
 
 #img1:hover {
 	background-image: url('img/girljacket.png')
+
 }
 #img1:hover img{
 	display: none;
@@ -115,6 +116,7 @@ body.blue-bg {
 
 #img9:hover {
 	background-image: url('img/girlfull.png')
+
 }
 #img9:hover img{
 	display: none;
@@ -135,9 +137,5 @@ body.blue-bg {
     #desktop {
         display: none;
     }
-    #item1{display: none;}
-    #item3{display: none;}
-    #item5{display: none;}
-    #item16{display: none;}
 }
 
