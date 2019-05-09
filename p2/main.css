@@ -10,9 +10,13 @@ body {
 
 #B{
 	position:relative;
-	
-}
 
+}
+/*
+#B:hover ~ #B div{
+	background: red; 
+}
+*/
 .letter {
 	position:relative;
 	margin-top:300px;
@@ -28,6 +32,10 @@ body {
 	width:50px;
 	height:15px;
 	background: blue; 
+}
+
+.letter:hover div {
+	background: red; 
 }
 
 .letter div.empty {
