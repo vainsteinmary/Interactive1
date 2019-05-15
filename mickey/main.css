@@ -23,7 +23,7 @@ body { background: black;}
   width: 100px;
   height: 100px;
   background: black;
-  top: 360px;
+  top: 100px;
   left:80px;
 }
 
@@ -31,7 +31,7 @@ body { background: black;}
   width: 100px;
   height: 100px;
   background: black;
-  top: 330px;
+  top: 100px;
   left:250px;
 }
 
@@ -39,33 +39,31 @@ body { background: black;}
   width: 140px;
   height: 140px;
   background: beige;
-  top: 400px;
-  left:160px;
+  top: 150px;
+  left:150px;
 }
 
 #eye1 {
   width: 25px;
   height: 20px;
   background: black;
-  top: 450px;
+  top: 200px;
   left:200px;
-  transform: rotate(-45deg);
 }
 
 #eye2 {
   width: 20px;
   height: 20px;
   background: black;
-  top: 440px;
+  top: 200px;
   left:265px;
-  transform: rotate(45deg);
 }
 
 #nose {
   width: 30px;
   height: 30px;
   background: black;
-  top: 450px;
+  top: 210px;
   left:240px;
 }
 
@@ -73,42 +71,25 @@ body { background: black;}
   width: 30px;
   height: 30px;
   background: #aa0f0f;
-  top: 490px;
-  left:240px;
-  transform: rotate(-15deg);
+  top: 240px;
+  left:260px;
 }
 
 #body {
   width: 200px;
   height: 200px;
   background: #aa0f0f;
-  top: 520px;
-  left:200px;
+  top: 280px;
+  left:150px;
 }
 
-#button-1 {
-  width: 32px;
-  height: 32px;
-  top: 560px;
-  left:260px;
-  background: black;
-}
-
-#button-2 {
-  width: 32px;
-  height: 32px;
-  top: 550px;
-  left:300px;
-  background: black;
-  background: black;s
-}
 
 #foot-1 {
   width: 130px;
   height: 150px;
   background: #ffe92b;
-  top: 570px;
-  left:160px;
+  top: 400px;
+  left:140px;
   transform: rotate(-30deg);
 }
 
@@ -116,7 +97,7 @@ body { background: black;}
   width: 130px;
   height: 150px;
   background: #ffe92b;
-  top: 550px;
-  left:340px;
+  top: 370px;
+  left:260px;
   transform: rotate(20deg);
 }
