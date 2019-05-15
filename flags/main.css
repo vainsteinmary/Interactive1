@@ -1,0 +1,42 @@
+* {
+        margin: 0px; padding: 0px; background: black;
+}
+
+.canvas {
+        width: 600px;
+        height: 300px;
+        position: relative;
+        background: white;
+}
+
+
+
+#box1{
+  width:200px;
+  height:300px;
+  background: green;
+          position: absolute;
+}
+
+#box2{
+margin-left:400px;
+  width:200px;
+  height:300px;
+  background: orange;
+  position: absolute;
+}
+
+#box3{
+  width:200px;
+  height:300px;
+  background: salmon;
+          position: absolute;
+}
+
+#box4{
+margin-left:400px;
+  width:200px;
+  height:300px;
+  background: lime;
+  position: absolute;
+}
